@@ -11,7 +11,7 @@ export default function App() {
       <Text style={{ color: 'red', fontWeight: 'bold' }}>Evet !</Text>
 
 
-      <Button title="tıkla" onPress={() => alert('tıklandı')} />
+      <Button title="tıkla" onPress={() => alert('tıklandı')} touchSoundDisabled={true} />
 
       <View style={{
         backgroundColor: '#B8B8F5',
