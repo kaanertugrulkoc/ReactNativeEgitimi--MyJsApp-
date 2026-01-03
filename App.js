@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View, Button, Image } from 'react-native';
 
 export default function App() {
   return (
 
     <View style={styles.container}>
       <StatusBar style="auto" />
+
+      <Image source={require('./assets/kule.jpg')} style={{ width: 200, height: 200 }} />
 
       <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitime Başladın mı ?</Text>
       <Text style={{ color: 'red', fontWeight: 'bold' }}>Evet !</Text>
