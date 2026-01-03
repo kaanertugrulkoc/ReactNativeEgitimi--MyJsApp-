@@ -5,7 +5,7 @@ export default function App() {
 
 
   const Alarm = () => {
-    Alert.alert("Başlık", "Mesaj", [
+    Alert.alert("Dikkat !!!", "Silme İşlemini Onaylıyormusunuz...", [
       { text: "Tamam", onPress: () => console.log("Tamam") },
       { text: "iptal", onPress: () => console.log("iptal") },
     ])
