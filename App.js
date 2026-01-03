@@ -22,7 +22,7 @@ export default function App() {
 
 
       <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitime Başladın mı ?</Text>
-      <Text style={{ color: 'red', fontWeight: 'bold' }}>Evet !</Text>
+      <Text style={{ color: 'red', fontWeight: 'bold' }}>Evet </Text>
 
       <Button title="Sil" onPress={sil} touchSoundDisabled={true} color="red" />
       <Button title="tıkla" onPress={() => alert('tıklandı')} touchSoundDisabled={true} />
