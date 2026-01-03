@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Button, Image, Alert } from 'react-native';
 export default function App() {
 
   // işlem yapmak için onay sorma 
-  const Alarm = () => {
+  const sil = () => {
     Alert.alert("Dikkat !!!", "Silme İşlemini Onaylıyormusunuz...", [
       { text: "Evet", onPress: () => alert("Silindi") },
       { text: "Hayır", onPress: () => alert("iptal edildi") },
@@ -24,7 +24,7 @@ export default function App() {
       <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitime Başladın mı ?</Text>
       <Text style={{ color: 'red', fontWeight: 'bold' }}>Evet !</Text>
 
-      <Button title="Alarm" onPress={Alarm} touchSoundDisabled={true} color="red" />
+      <Button title="Sil" onPress={sil} touchSoundDisabled={true} color="red" />
       <Button title="tıkla" onPress={() => alert('tıklandı')} touchSoundDisabled={true} />
       <Button title="Giriş Yap" onPress={() => alert('giriş yapıldı')} touchSoundDisabled={true} color="red" />
       <Button title="Kayıt Ol" onPress={() => alert('kayıt yapıldı')} touchSoundDisabled={true} color="blue" />
