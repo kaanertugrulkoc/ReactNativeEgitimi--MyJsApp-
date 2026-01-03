@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button, Image } from 'react-native';
+import { StyleSheet, Text, View, Button, Image, Alert } from 'react-native';
 
 export default function App() {
   return (
@@ -7,6 +7,12 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
 
+      const Alarm = () = {
+        Alert.alert("Başlık", "Mesaj")
+
+      };
+
+      <Button title="Alarm" onPress={Alarm} touchSoundDisabled={true} color="red" />
       <Image source={require('./assets/kule.jpg')} style={{ width: 100, height: 100 }} />
       <Image source={{ uri: "https://avatars.githubusercontent.com/u/25131682?v=4" }} style={{ width: 100, height: 100 }} />
       <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitime Başladın mı ?</Text>
