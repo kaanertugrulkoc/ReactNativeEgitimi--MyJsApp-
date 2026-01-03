@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
 
-      const Alarm = () =>{
+      const Alarm = () => {
         Alert.alert("Başlık", "Mesaj", [
           { title: "Tamam", onPress: () => console.log("Tamam") },
           { title: "iptal", onPress: () => console.log("iptal") },
@@ -20,7 +20,7 @@ export default function App() {
       <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitime Başladın mı ?</Text>
       <Text style={{ color: 'red', fontWeight: 'bold' }}>Evet !</Text>
 
-      <Button title="Alarm Kur" onPress={Alarm} touchSoundDisabled={true} color="red" />
+      <Button title="Alarm" onPress={Alarm} touchSoundDisabled={true} color="red" />
       <Button title="tıkla" onPress={() => alert('tıklandı')} touchSoundDisabled={true} />
       <Button title="Giriş Yap" onPress={() => alert('giriş yapıldı')} touchSoundDisabled={true} color="red" />
       <Button title="Kayıt Ol" onPress={() => alert('kayıt yapıldı')} touchSoundDisabled={true} color="blue" />
