@@ -21,7 +21,7 @@ export default function App() {
       <Image source={{ uri: "https://avatars.githubusercontent.com/u/25131682?v=4" }} style={{ width: 100, height: 100 }} />
 
 
-      <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitime Başladın mı ?</Text>
+      <Text style={styles.yaziTipi}>Eğitime Başladın mı ?</Text>
       <Text style={{ color: 'red', fontWeight: 'bold' }}>Evet </Text>
 
       <Button title="Sil" onPress={sil} touchSoundDisabled={true} color="red" />
@@ -62,5 +62,27 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  yaziTipi: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    margin: 5,
+    color: 'black',
+    backgroundColor: 'green',
+    width: 250,
+    height: 50,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: 5,
+    padding: 5,
+    borderWidth: 1,
+    borderColor: 'black',
+    shadowColor: 'black',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+
   },
 });
