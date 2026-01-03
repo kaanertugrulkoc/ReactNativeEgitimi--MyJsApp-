@@ -7,8 +7,8 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
 
-      <Image source={require('./assets/kule.jpg')} style={{ width: 200, height: 200 }} />
-
+      <Image source={require('./assets/kule.jpg')} style={{ width: 100, height: 100 }} />
+      <Image source={{ uri: "https://avatars.githubusercontent.com/u/25131682?v=4" }} style={{ width: 100, height: 100 }} />
       <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitime Başladın mı ?</Text>
       <Text style={{ color: 'red', fontWeight: 'bold' }}>Evet !</Text>
 
