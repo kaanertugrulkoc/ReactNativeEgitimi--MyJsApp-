@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
 
-      <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitimi Bitirdin mi ?</Text>
+      <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitime Başladın mı ?</Text>
       <Text style={{ color: 'red', fontWeight: 'bold' }}>Merhaba</Text>
 
 
