@@ -12,6 +12,11 @@ export default function App() {
 
 
       <Button title="tıkla" onPress={() => alert('tıklandı')} touchSoundDisabled={true} />
+      <Button title="Giriş Yap" onPress={() => alert('giriş yapıldı')} touchSoundDisabled={true} color="red" />
+      <Button title="Kayıt Ol" onPress={() => alert('kayıt yapıldı')} touchSoundDisabled={true} color="blue" />
+      <Button title="Çıkış Yap" onPress={() => alert('çıkış yapıldı')} touchSoundDisabled={true} color="green" />
+      <Button title="Sıfırla" onPress={() => alert('sıfırlanıldı')} touchSoundDisabled={true} color="orange" />
+      <Button title="Kapat" onPress={() => alert('kapatıldı')} touchSoundDisabled={true} color="black" />
 
       <View style={{
         backgroundColor: '#B8B8F5',
