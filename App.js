@@ -3,10 +3,41 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
+
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
+
+      <Text style={{ fontSize: 20, fontWeight: 'bold', margin: 5 }}>Eğitimi Bitirdin mi ?</Text>
+      <Text style={{ color: 'red', fontWeight: 'bold' }}>Merhaba</Text>
+
+
+
+      <View style={{
+        backgroundColor: '#B8B8F5',
+        width: 100,
+        height: 100,
+        borderRadius: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: 5,
+        padding: 5,
+        borderWidth: 1,
+        borderColor: 'black',
+        shadowColor: 'black',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+      }}>
+        <Text>Çerçeve</Text>
+      </View>
+
+
+
+
+
     </View>
+
   );
 }
 
