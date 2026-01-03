@@ -22,29 +22,15 @@ export default function App() {
 
 
       <Text style={styles.yaziTipi}>Eğitime Başladın mı ?</Text>
-      <Text style={{ color: 'red', fontWeight: 'bold' }}>Evet </Text>
+      <Text style={[styles.yaziTipi, { backgroundColor: 'red', color: 'white' }]}>Evet </Text>
 
       <Button title="Sil" onPress={sil} touchSoundDisabled={true} color="red" />
       <Button title="tıkla" onPress={() => alert('tıklandı')} touchSoundDisabled={true} />
 
       <View style={{
-        backgroundColor: '#B8B8F5',
-        width: 300,
-        height: 50,
-        borderRadius: 10,
-        alignItems: 'center',
-        justifyContent: 'center',
-        margin: 5,
-        padding: 5,
-        borderWidth: 1,
-        borderColor: 'black',
-        shadowColor: 'black',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.25,
-        shadowRadius: 3.84,
-        elevation: 5,
+
       }}>
-        <Text>Çerçeve</Text>
+        <Text style={styles.yeniTip}>Çerçeve</Text>
       </View>
 
 
@@ -83,6 +69,29 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
+    flexDirection: 'row',
+
+  },
+
+  yeniTip: {
+    backgroundColor: '#B8B8F5',
+    width: 300,
+    height: 50,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: 5,
+    padding: 5,
+    borderWidth: 1,
+    borderColor: 'black',
+    shadowColor: 'black',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+
 
   },
 });
