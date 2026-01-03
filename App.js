@@ -2,17 +2,17 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, Image, Alert } from 'react-native';
 
 export default function App() {
+  const Alarm = () => {
+    Alert.alert("Başlık", "Mesaj", [
+      { text: "Tamam", onPress: () => console.log("Tamam") },
+      { text: "iptal", onPress: () => console.log("iptal") },
+    ])
+  };
+
   return (
 
     <View style={styles.container}>
       <StatusBar style="auto" />
-
-      const Alarm = () => {
-        Alert.alert("Başlık", "Mesaj", [
-          { title: "Tamam", onPress: () => console.log("Tamam") },
-          { title: "iptal", onPress: () => console.log("iptal") },
-        ])
-      };
 
 
       <Image source={require('./assets/kule.jpg')} style={{ width: 100, height: 100 }} />
