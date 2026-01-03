@@ -72,7 +72,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
 
   },
-
   yeniTip: {
     backgroundColor: '#B8B8F5',
     width: 300,
