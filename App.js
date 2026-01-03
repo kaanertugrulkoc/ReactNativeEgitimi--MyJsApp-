@@ -6,7 +6,7 @@ export default function App() {
   // işlem yapmak için onay sorma 
   const sil = () => {
     Alert.alert("Dikkat !!!", "Silme İşlemini Onaylıyormusunuz...", [
-      { text: "Evet", onPress: () => alert("Silindi") },
+      { text: "Evet", onPress: () => alert("Onaylama", "Silindi") },
       { text: "Hayır", onPress: () => alert("iptal edildi") },
     ])
   };
