@@ -3,11 +3,11 @@ import { StyleSheet, Text, View, Button, Image, Alert } from 'react-native';
 
 export default function App() {
 
-
+  // işlem yapmak için onay sorma 
   const Alarm = () => {
     Alert.alert("Dikkat !!!", "Silme İşlemini Onaylıyormusunuz...", [
-      { text: "Evet", onPress: () => console.log("Silindi") },
-      { text: "Hayır", onPress: () => console.log("iptal edildi") },
+      { text: "Evet", onPress: () => alert("Silindi") },
+      { text: "Hayır", onPress: () => alert("iptal edildi") },
     ])
   };
 
