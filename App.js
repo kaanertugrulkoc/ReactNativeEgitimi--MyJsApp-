@@ -6,7 +6,7 @@ export default function App() {
   // işlem yapmak için onay sorma 
   const sil = () => {
     Alert.alert("Dikkat !!!", "Silme İşlemini Onaylıyormusunuz...", [
-      { text: "Evet", onPress: () => alert("Onayla", "Silindi") },
+      { text: "Evet", onPress: () => alert("Silindi") },
       { text: "Hayır", onPress: () => alert("iptal edildi") },
     ])
   };
@@ -30,7 +30,9 @@ export default function App() {
       <View style={{
 
       }}>
-        <Text style={styles.yeniTip}>Çerçeve</Text>
+        <Text style={styles.yeniTip}>https://kaanertugrulkoc.blogspot.com/</Text>
+        <Text style={styles.yeniTip}>https://github.com/kaanertugrulkoc</Text>
+        <Text style={styles.yeniTip}>+90 531 605 60 65</Text>
       </View>
 
 
