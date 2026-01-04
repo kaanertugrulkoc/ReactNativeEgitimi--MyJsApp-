@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, Image, Alert } from 'react-native';
+import { Foo } from './companents/foo/foo';
 
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
 
     <View style={styles.container}>
       <StatusBar style="auto" />
+      <Foo />
 
 
       <Image source={require('./assets/kule.jpg')} style={{ width: 100, height: 100 }} />
@@ -41,6 +43,8 @@ export default function App() {
 
 
     </View>
+
+
 
   );
 }
