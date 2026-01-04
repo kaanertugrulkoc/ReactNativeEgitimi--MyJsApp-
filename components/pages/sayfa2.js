@@ -1,4 +1,4 @@
-import { View, Text, Image, Linking, TouchableOpacity } from 'react-native';
+import { View, Text, Image, Linking, TouchableOpacity, TextInput } from 'react-native';
 import { styles } from '../../components/style/style';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
@@ -23,6 +23,10 @@ export const Sayfa2 = () => {
                     <Text style={styles.yazi}>kaanertugrulkoc.com.tr</Text>
                     <Text style={styles.yazi}>info@kaanertugrulkoc.com.tr</Text>
                     <Text style={styles.yazi}>+90 531 60* ** **</Text>
+
+                    <TextInput placeholder="Ad Soyad" style={styles.yazi} />
+                    <TextInput placeholder="Telefon" autoCapitalize="characters" autoCorrect={false} style={styles.yazi} />
+                    <TextInput placeholder="Email" keyboardType="email-address" autoCapitalize="none" autoCorrect={false} style={styles.yazi} />
 
                 </View>
                 <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>

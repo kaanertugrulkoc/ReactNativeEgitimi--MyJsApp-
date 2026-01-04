@@ -76,24 +76,15 @@ export const stil = StyleSheet.create({
 
     },
     yazi: {
-        textAlign: 'center',
-        fontSize: 20,
-        fontWeight: 'bold',
-        margin: 5,
-        color: 'black',
-        backgroundColor: 'green',
         width: 250,
-
-        borderRadius: 10,
+        padding: 10,
         margin: 5,
-        padding: 5,
         borderWidth: 1,
         borderColor: 'black',
-        shadowColor: 'black',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.25,
-        shadowRadius: 3.84,
-        elevation: 5,
+        borderRadius: 10,
+
+
+
 
     },
     baslik: {
