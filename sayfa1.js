@@ -13,7 +13,7 @@ export const Sayfa1 = () => {
     };
 
     return (
-        <View style={styles.box}>
+        <View style={styles.container}>
             <Image source={require('./assets/kule.jpg')} style={{ width: 100, height: 100 }} />
             <Image source={{ uri: "https://avatars.githubusercontent.com/u/25131682?v=4" }} style={{ width: 100, height: 100 }} />
 

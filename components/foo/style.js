@@ -2,15 +2,15 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
     container: {
-
+        flex: 1,
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
     },
     box: {
 
-        width: 10,
-        height: 10,
+        width: 100,
+        height: 100,
         backgroundColor: '#EAEAEA',
         alignItems: 'center',
         justifyContent: 'center',
@@ -22,16 +22,15 @@ export const styles = StyleSheet.create({
         color: 'black',
     },
     yaziTipi: {
+        textAlign: 'center',
         fontSize: 20,
         fontWeight: 'bold',
         margin: 5,
         color: 'black',
         backgroundColor: 'green',
         width: 250,
-        height: 50,
+        height: 10,
         borderRadius: 10,
-        alignItems: 'center',
-        justifyContent: 'center',
         margin: 5,
         padding: 5,
         borderWidth: 1,
@@ -45,12 +44,11 @@ export const styles = StyleSheet.create({
 
     },
     yeniTip: {
+        textAlign: 'center',
         backgroundColor: '#B8B8F5',
         width: 300,
-        height: 50,
+        height: 10,
         borderRadius: 10,
-        alignItems: 'center',
-        justifyContent: 'center',
         margin: 5,
         padding: 5,
         borderWidth: 1,
@@ -60,8 +58,6 @@ export const styles = StyleSheet.create({
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
         elevation: 5,
-        alignItems: 'center',
-        justifyContent: 'center',
 
 
     },
