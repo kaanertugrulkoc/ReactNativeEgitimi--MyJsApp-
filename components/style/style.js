@@ -99,12 +99,9 @@ export const stil = StyleSheet.create({
 
     },
     baslik: {
-
-        fontSize: 350,
+        fontSize: 35,
         fontWeight: 'bold',
         textAlign: 'center',
-
-
     },
 
 });
