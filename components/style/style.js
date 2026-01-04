@@ -68,3 +68,16 @@ export const styles = StyleSheet.create({
 
     },
 });
+
+export const stil = StyleSheet.create({
+    konteyner: {
+
+    },
+    kutu: {
+
+    },
+    yazi: {
+
+    },
+
+});
