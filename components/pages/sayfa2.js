@@ -1,5 +1,5 @@
 import { View, Text } from 'react-native';
-import { styles } from './components/style/style';
+import { styles } from '../../components/style/style';
 
 export const Sayfa2 = () => {
 

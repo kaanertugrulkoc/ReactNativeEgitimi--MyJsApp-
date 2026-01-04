@@ -15,7 +15,7 @@ export const Sayfa1 = () => {
 
     return (
         <View style={styles.container}>
-            <Image source={require('./assets/kule.jpg')} style={{ width: 100, height: 100 }} />
+            <Image source={require('../../assets/kule.jpg')} style={{ width: 100, height: 100 }} />
             <Image source={{ uri: "https://avatars.githubusercontent.com/u/25131682?v=4" }} style={{ width: 100, height: 100 }} />
 
 
@@ -23,7 +23,7 @@ export const Sayfa1 = () => {
             <Text style={[styles.yaziTipi, { backgroundColor: 'red', color: 'white' }]}>Evet </Text>
 
             <Button title="Sil" onPress={sil} touchSoundDisabled={true} color="red" />
-            <Button title="Sayfa2 ye git !!!" onPress={(Sayfa2) => alert("Sayfa2 ye gidiyoruz")} touchSoundDisabled={true} />
+            <Button title="Sayfa2 ye git " onPress={(Sayfa2) => alert("Sayfa2 ye gidiyoruz")} touchSoundDisabled={true} />
 
             <View style={{
 
