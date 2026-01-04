@@ -1,5 +1,7 @@
 import { View, Text, Image } from 'react-native';
 import { styles } from '../../components/style/style';
+import AntDesign from '@expo/vector-icons/AntDesign';
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
 export const Sayfa2 = () => {
 
@@ -23,8 +25,10 @@ export const Sayfa2 = () => {
                     <Text style={styles.yazi}>+90 531 605 ** **</Text>
 
                 </View>
-                <View style={{ flex: 1, textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
-                    <Text style={{ fontSize: 20, fontWeight: 'bold' }}>x</Text>
+                <View style={{ flex: 1, textAlign: 'center', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                    <AntDesign name="github" size={35} color="black" />
+                    <FontAwesome5 name="blogger-b" size={35} color="black" />
+
                 </View>
 
             </View>
