@@ -1,8 +1,17 @@
-import React from 'react';
-import { View, Text, Image, Button } from 'react-native';
+import { View, Text, Image, Button, Alert } from 'react-native';
 import { styles } from './style';
 
 export const sayfa1 = () => {
+
+    const sil = () => {
+        Alert.alert("Dikkat !!!", "Silme İşlemini Onaylıyormusunuz...", [
+            { text: "Evet", onPress: () => alert("Silindi") },
+            { text: "Hayır", onPress: () => alert("iptal edildi") },
+        ]);
+
+
+    };
+
     return (
         <View style={styles.box}>
             <Image source={require('./assets/kule.jpg')} style={{ width: 100, height: 100 }} />
