@@ -2,6 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
     container: {
+        paddingTop: 40,
         alignItems: 'center',
         backgroundColor: '#fff',
 
@@ -39,7 +40,6 @@ export const styles = StyleSheet.create({
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
         elevation: 5,
-        flexDirection: 'row',
 
     },
     yeniTip: {
