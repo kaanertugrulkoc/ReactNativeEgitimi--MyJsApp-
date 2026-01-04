@@ -77,6 +77,7 @@ export const stil = StyleSheet.create({
     },
     yazi: {
         width: 250,
+        height: 50,
         padding: 10,
         margin: 5,
         borderWidth: 1,
