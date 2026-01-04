@@ -7,7 +7,7 @@ import { Sayfa1 } from './sayfa1';
 export default function App() {
   return (
 
-    <ScrollView style={styles.container}>
+    <ScrollView style={[styles.container, { flex: 1 }]}>
       <StatusBar style="auto" />
       <Foo />
       <Sayfa1 />
