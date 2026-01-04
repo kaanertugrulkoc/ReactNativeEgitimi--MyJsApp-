@@ -12,6 +12,13 @@ export const Sayfa2 = () => {
                 <Text style={styles.baslik}>KİŞİLER</Text>
             </View>
 
+            <View style={{ flexDirection: 'column', height: 20, width: 350, margin: 20, justifyContent: 'center', alignItems: 'center' }}>
+
+                <TextInput placeholder="Ad Soyad" style={styles.yazi} />
+                <TextInput placeholder="Telefon" autoCapitalize="characters" autoCorrect={false} style={styles.yazi} />
+                <TextInput placeholder="Email" keyboardType="email-address" autoCapitalize="none" autoCorrect={false} style={styles.yazi} />
+
+            </View>
 
             <View style={{ flexDirection: 'row', height: 120, width: 350, margin: 20 }}>
                 <View style={{ flex: 2, justifyContent: 'center', alignItems: 'center' }}>
@@ -24,11 +31,13 @@ export const Sayfa2 = () => {
                     <Text style={styles.yazi}>info@kaanertugrulkoc.com.tr</Text>
                     <Text style={styles.yazi}>+90 531 60* ** **</Text>
 
-                    <TextInput placeholder="Ad Soyad" style={styles.yazi} />
-                    <TextInput placeholder="Telefon" autoCapitalize="characters" autoCorrect={false} style={styles.yazi} />
-                    <TextInput placeholder="Email" keyboardType="email-address" autoCapitalize="none" autoCorrect={false} style={styles.yazi} />
 
                 </View>
+
+
+
+
+
                 <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                     <TouchableOpacity onPress={() => Linking.openURL('https://github.com/kaanertugrulkoc')}>
                         <AntDesign name="github" size={24} color="black" />
@@ -40,6 +49,8 @@ export const Sayfa2 = () => {
                         <AntDesign name="apple" size={24} color="black" />
                     </TouchableOpacity>
                 </View>
+
+
 
             </View>
 
