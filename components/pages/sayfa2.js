@@ -3,6 +3,7 @@ import { styles } from '../../components/style/style';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
+
 export const Sayfa2 = () => {
 
     return (
@@ -26,10 +27,13 @@ export const Sayfa2 = () => {
                 </View>
                 <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                     <TouchableOpacity onPress={() => Linking.openURL('https://github.com/kaanertugrulkoc')}>
-                        <AntDesign name="github" size={35} color="black" />
+                        <AntDesign name="github" size={24} color="black" />
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => Linking.openURL('https://kaanertugrulkoc.blogspot.com/')}>
-                        <FontAwesome5 name="blogger-b" size={35} color="black" style={{ marginTop: 10 }} />
+                        <FontAwesome5 name="blogger-b" size={24} color="black" style={{ marginTop: 10 }} />
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={() => Linking.openURL('https://kaanertugrulkoc.blogspot.com/')}>
+                        <AntDesign name="apple" size={24} color="black" />
                     </TouchableOpacity>
                 </View>
 
