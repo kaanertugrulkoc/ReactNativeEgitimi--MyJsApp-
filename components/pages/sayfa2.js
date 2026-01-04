@@ -4,9 +4,6 @@ import { styles } from '../../components/style/style';
 export const Sayfa2 = () => {
 
 
-
-
-
     return (
         <View style={{ flexDirection: 'row', height: '120 ', width: '350' }}>
             <View style={{ flex: 2, justifyContent: 'center', alignItems: 'center' }}>
