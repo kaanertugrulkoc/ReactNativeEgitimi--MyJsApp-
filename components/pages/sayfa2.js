@@ -15,7 +15,7 @@ export const Sayfa2 = () => {
             <View style={{ flexDirection: 'column', height: 20, width: 350, margin: 20, justifyContent: 'center', alignItems: 'center' }}>
 
                 <TextInput placeholder="Ad Soyad" style={styles.yazi} />
-                <TextInput placeholder="Telefon" autoCapitalize="characters" autoCorrect={false} style={styles.yazi} />
+                <TextInput placeholder="Telefon" autoCapitalize="decimals" autoCorrect={false} style={styles.yazi} />
                 <TextInput placeholder="Email" keyboardType="email-address" autoCapitalize="none" autoCorrect={false} style={styles.yazi} />
 
             </View>
@@ -35,9 +35,6 @@ export const Sayfa2 = () => {
                 </View>
 
 
-
-
-
                 <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                     <TouchableOpacity onPress={() => Linking.openURL('https://github.com/kaanertugrulkoc')}>
                         <AntDesign name="github" size={24} color="black" />
@@ -45,7 +42,7 @@ export const Sayfa2 = () => {
                     <TouchableOpacity onPress={() => Linking.openURL('https://kaanertugrulkoc.blogspot.com/')}>
                         <FontAwesome5 name="blogger-b" size={24} color="black" style={{ marginTop: 10 }} />
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => Linking.openURL('https://kaanertugrulkoc.blogspot.com/')}>
+                    <TouchableOpacity onPress={() => Linking.openURL('https://www.apple.com/tr')}>
                         <AntDesign name="apple" size={24} color="black" />
                     </TouchableOpacity>
                 </View>
