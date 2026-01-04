@@ -100,15 +100,9 @@ export const stil = StyleSheet.create({
     },
     baslik: {
 
-        fontSize: 550,
+        fontSize: 350,
         fontWeight: 'bold',
         textAlign: 'center',
-
-
-
-
-
-
 
 
     },

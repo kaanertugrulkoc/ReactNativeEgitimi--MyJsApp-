@@ -6,7 +6,7 @@ export const Sayfa2 = () => {
 
     return (
         <View >
-            <View>
+            <View style={{ justifyContent: 'center', alignItems: 'center', margin: 10, textAlign: 'center' }}>
                 <Text style={styles.baslik}>KİŞİLER</Text>
             </View>
 
