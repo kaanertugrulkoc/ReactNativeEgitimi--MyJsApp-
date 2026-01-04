@@ -1,5 +1,6 @@
 import { View, Text, Image, Button, Alert } from 'react-native';
 import { styles } from './components/foo/style';
+import { Sayfa2 } from './sayfa2';
 
 export const Sayfa1 = () => {
 
@@ -22,7 +23,7 @@ export const Sayfa1 = () => {
             <Text style={[styles.yaziTipi, { backgroundColor: 'red', color: 'white' }]}>Evet </Text>
 
             <Button title="Sil" onPress={sil} touchSoundDisabled={true} color="red" />
-            <Button title="tıkla" onPress={() => alert('tıklandı')} touchSoundDisabled={true} />
+            <Button title="Sayfa2 ye git" onPress={() => Sayfa2()} touchSoundDisabled={true} />
 
             <View style={{
 
