@@ -9,6 +9,7 @@ export const styles = StyleSheet.create({
         backgroundColor: '#EAEAEA',
         alignItems: 'center',
         justifyContent: 'center',
+        borderRadius: 10,
     },
     text: {
         fontSize: 20,
