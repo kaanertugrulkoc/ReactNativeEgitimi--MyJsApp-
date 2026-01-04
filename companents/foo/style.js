@@ -2,7 +2,8 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
     box: {
-        flex: 1,
+        width: 100,
+        height: 100,
         backgroundColor: '#e97e7eff',
         alignItems: 'center',
         justifyContent: 'center',
