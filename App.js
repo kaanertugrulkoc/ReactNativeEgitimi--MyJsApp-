@@ -30,6 +30,7 @@ export default function App() {
       <View style={{
 
       }}>
+        <Text style={styles.yeniTip}>İletişim</Text>
         <Text style={styles.yeniTip}>https://kaanertugrulkoc.blogspot.com/</Text>
         <Text style={styles.yeniTip}>https://github.com/kaanertugrulkoc</Text>
         <Text style={[styles.yeniTip, { fontWeight: 'bold', color: 'blue', fontSize: 40 }]}>+90 531 605 60 65</Text>
