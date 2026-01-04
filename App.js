@@ -2,8 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, Image, Alert } from 'react-native';
 import { Foo } from './companents/foo/foo';
 import { styles } from './companents/foo/style';
-import { sayfa1 } from './sayfa1';
-
+import { Sayfa1 } from './companents/sayfa1/sayfa1';
 
 export default function App() {
   return (
@@ -11,7 +10,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <Foo />
-      <sayfa1 />
+      <Sayfa1 />
 
 
     </View>

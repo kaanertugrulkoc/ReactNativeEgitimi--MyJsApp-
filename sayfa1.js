@@ -1,7 +1,7 @@
 import { View, Text, Image, Button, Alert } from 'react-native';
-import { styles } from './style';
+import { styles } from './companents/foo/style';
 
-export const sayfa1 = () => {
+export const Sayfa1 = () => {
 
     const sil = () => {
         Alert.alert("Dikkat !!!", "Silme İşlemini Onaylıyormusunuz...", [
