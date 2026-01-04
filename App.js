@@ -96,7 +96,6 @@ const styles = StyleSheet.create({
 
 
   },
-
   yeniTip2: {
     textTransform: 'uppercase',
     textAlign: 'center',
