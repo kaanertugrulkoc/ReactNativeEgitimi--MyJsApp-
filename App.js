@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, Button, Image, Alert } from 'react-native';
 import { Foo } from './companents/foo/foo';
 import { styles } from './companents/foo/style';
 import { sayfa1 } from './sayfa1';
+
+
 export default function App() {
   return (
 
