@@ -23,7 +23,7 @@ export const Sayfa1 = () => {
             <Text style={[styles.yaziTipi, { backgroundColor: 'red', color: 'white' }]}>Evet </Text>
 
             <Button title="Sil" onPress={sil} touchSoundDisabled={true} color="red" />
-            <Button title="Sayfa2 ye git" onPress={() => Sayfa2()} touchSoundDisabled={true} />
+            <Button title="Sayfa2 ye git !!!" onPress={(Sayfa2) => alert("Sayfa2 ye gidiyoruz")} touchSoundDisabled={true} />
 
             <View style={{
 
