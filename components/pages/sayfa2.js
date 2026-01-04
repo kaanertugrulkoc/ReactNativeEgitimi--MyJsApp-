@@ -23,7 +23,9 @@ export const Sayfa2 = () => {
                     <Text style={styles.yazi}>+90 531 605 ** **</Text>
 
                 </View>
-                <View style={{ backgroundColor: 'blue', flex: 1 }}></View>
+                <View style={{ flex: 1, textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold' }}>x</Text>
+                </View>
 
             </View>
 
