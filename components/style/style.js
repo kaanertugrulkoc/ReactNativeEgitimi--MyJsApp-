@@ -78,8 +78,6 @@ export const stil = StyleSheet.create({
 
     },
     yazi: {
-
-
         textAlign: 'center',
         fontSize: 20,
         fontWeight: 'bold',
@@ -98,6 +96,19 @@ export const stil = StyleSheet.create({
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
         elevation: 5,
+
+    },
+    baslik: {
+
+        fontSize: 350,
+        fontWeight: 'bold',
+        color: 'red',
+
+
+
+
+
+
 
     },
 
