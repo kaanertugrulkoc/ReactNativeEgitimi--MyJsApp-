@@ -36,7 +36,7 @@ export const Sayfa1 = () => {
                         <Text style={styles.yeniTip}>https://github.com/kaanertugrulkoc</Text>
                     </TouchableOpacity>
 
-                    <Text style={[styles.yeniTip, { fontWeight: 'bold', color: 'blue', fontSize: 30 }]}>+90 531 605 ** **</Text>
+                    <Text style={[styles.yeniTip, { fontWeight: 'bold', color: 'blue', fontSize: 30 }]}>+90 531 60* ** **</Text>
                 </View>
             </View>
         </>

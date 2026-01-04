@@ -21,7 +21,7 @@ export const Sayfa2 = () => {
                     <Text style={styles.yazi}>Kaan Ertugrul Koc</Text>
                     <Text style={styles.yazi}>kaanertugrulkoc.com.tr</Text>
                     <Text style={styles.yazi}>info@kaanertugrulkoc.com.tr</Text>
-                    <Text style={styles.yazi}>+90 531 605 ** **</Text>
+                    <Text style={styles.yazi}>+90 531 60* ** **</Text>
 
                 </View>
                 <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
