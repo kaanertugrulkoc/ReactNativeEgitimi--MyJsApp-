@@ -74,6 +74,13 @@ export const stil = StyleSheet.create({
 
     },
     kutu: {
+        paddingTop: 120,
+        width: 350,
+        height: 60,
+        backgroundColor: '#EAEAEA',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 10,
 
     },
     yazi: {
