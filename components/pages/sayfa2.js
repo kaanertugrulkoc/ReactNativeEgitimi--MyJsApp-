@@ -8,10 +8,13 @@ export const Sayfa2 = () => {
 
 
     return (
-        <View style={styles.container}>
+        <View style={styles.konteyner}>
 
-            <View style={styles.box}>
-                <Text style={styles.text}>Sayfa 2</Text>
+            <View style={styles.kutu}>
+
+
+
+
             </View>
 
 

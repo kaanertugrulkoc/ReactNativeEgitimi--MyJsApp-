@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { ScrollView } from 'react-native';
 import { styles } from './components/style/style';
 import { Sayfa1 } from './components/pages/sayfa1';
+import { Sayfa2 } from './components/pages/sayfa2';
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
     <ScrollView contentContainerStyle={[styles.container, { flex: 1 }]}>
       <StatusBar style="auto" />
 
-      <Sayfa1 />
+      <Sayfa2 />
 
 
     </ScrollView>

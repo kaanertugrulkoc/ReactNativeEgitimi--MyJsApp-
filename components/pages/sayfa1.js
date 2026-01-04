@@ -16,7 +16,7 @@ export const Sayfa1 = () => {
     return (
 
 
-        <><View style={[styles.kutu, { flexDirection: 'row', width: 300, height: 150 }]}>
+        <><View style={[styles.container, { flexDirection: 'row', width: 300, height: 200 }]}>
 
 
             <Image source={require('../../assets/kule.jpg')} style={{ width: 50, height: 150, flex: 1 }} />
@@ -25,8 +25,6 @@ export const Sayfa1 = () => {
 
 
         </View >
-
-
 
             <View style={styles.container}>
 

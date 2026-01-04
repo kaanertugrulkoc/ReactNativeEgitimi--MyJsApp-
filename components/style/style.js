@@ -11,12 +11,13 @@ export const styles = StyleSheet.create({
     },
     box: {
 
-        width: 350,
-        height: 60,
+        paddingTop: 20,
+        width: 300,
+        height: 50,
         backgroundColor: '#EAEAEA',
         alignItems: 'center',
         justifyContent: 'center',
-        borderRadius: 10,
+        borderRadius: 75,
     },
     text: {
         fontSize: 20,
@@ -74,13 +75,6 @@ export const stil = StyleSheet.create({
 
     },
     kutu: {
-        paddingTop: 120,
-        width: 350,
-        height: 60,
-        backgroundColor: '#EAEAEA',
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderRadius: 10,
 
     },
     yazi: {
