@@ -39,7 +39,7 @@ export const Sayfa1 = () => {
                     <Text style={[styles.yeniTip, styles.yeniTip2, { fontWeight: 'bold', color: 'blue', fontSize: 30 }]}>İletişim</Text>
                     <Text style={styles.yeniTip}>https://kaanertugrulkoc.blogspot.com/</Text>
                     <Text style={styles.yeniTip}>https://github.com/kaanertugrulkoc</Text>
-                    <Text style={[styles.yeniTip, { fontWeight: 'bold', color: 'blue', fontSize: 30 }]}>+90 531 605 60 65</Text>
+                    <Text style={[styles.yeniTip, { fontWeight: 'bold', color: 'blue', fontSize: 30 }]}>+90 531 605 ** **</Text>
                 </View>
             </View></>
     );

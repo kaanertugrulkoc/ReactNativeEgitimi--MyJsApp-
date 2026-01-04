@@ -11,6 +11,7 @@ export default function App() {
       <StatusBar style="auto" />
 
       <Sayfa2 />
+      <Sayfa1 />
 
     </ScrollView>
 
