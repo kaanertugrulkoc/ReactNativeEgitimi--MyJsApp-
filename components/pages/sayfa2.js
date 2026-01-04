@@ -20,7 +20,7 @@ export const Sayfa2 = () => {
                     <Text style={styles.yazi}>Kaan Ertugrul Koc</Text>
                     <Text style={styles.yazi}>kaanertugrulkoc.com.tr</Text>
                     <Text style={styles.yazi}>info@kaanertugrulkoc.com.tr</Text>
-                    <Text style={styles.yazi}>+90 531 605 60 65</Text>
+                    <Text style={styles.yazi}>+90 531 605 ** **</Text>
 
                 </View>
                 <View style={{ backgroundColor: 'blue', flex: 1 }}></View>
