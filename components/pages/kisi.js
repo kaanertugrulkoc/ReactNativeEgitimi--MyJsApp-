@@ -23,7 +23,7 @@ export const Kisi = () => {
 
 
         }}>
-            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Ad: Kaan</Text>
+            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Ad: Kaan Ertugrul</Text>
             <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Soyad: KOÇ</Text>
 
         </View>
