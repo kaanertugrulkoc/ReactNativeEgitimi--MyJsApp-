@@ -10,6 +10,7 @@ export default function App() {
     <ScrollView contentContainerStyle={[styles.container, { flex: 1 }]}>
       <StatusBar style="auto" />
 
+      <sosyal />
       <Sayfa2 />
       <Sayfa1 />
 
