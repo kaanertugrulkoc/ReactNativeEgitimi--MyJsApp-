@@ -13,6 +13,9 @@ export default function App() {
     <ScrollView contentContainerStyle={[styles.container, { flex: 1 }]}>
       <StatusBar style="auto" />
 
+
+
+      <Kisi />
       <Sosyal1 />
       <Sosyal />
       <Sayfa2 />
