@@ -31,6 +31,7 @@ export const Sayfa2 = () => {
                     <Text style={styles.yazi}>info@kaanertugrulkoc.com.tr</Text>
                     <Text style={styles.yazi}>+90 531 60* ** **</Text>
                     <Text style={styles.yazi}>www.x.com/kaanertugrulkoc</Text>
+                    <Text style={styles.yazi}>https://www.blogger.com/kaanertugrulkoc</Text>
 
 
                 </View>
