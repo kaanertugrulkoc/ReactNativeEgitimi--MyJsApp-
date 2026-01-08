@@ -1,4 +1,6 @@
-
+import React from 'react';
+import { View, Text } from 'react-native';
+import { styles } from '../../components/style/style';
 
 class sosyal extends React.Component {
     render() {
@@ -9,3 +11,6 @@ class sosyal extends React.Component {
         );
     }
 }
+
+
+export default sosyal;
