@@ -5,6 +5,7 @@ import { Sayfa1 } from './components/pages/sayfa1';
 import { Sayfa2 } from './components/pages/sayfa2';
 import Sosyal from './components/pages/sosyal';
 import Sosyal1 from './components/pages/sosyal1';
+import { Kisi } from './components/pages/kisi';
 
 
 export default function App() {

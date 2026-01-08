@@ -6,16 +6,25 @@ export const Kisi = () => {
         <View style={{
             backgroundColor: 'EAEAEA',
             width: 300,
-            height: 50,
-            borderRadius: 10,
+            height: 100,
+            borderRadius: 20,
+            margin: 5,
+            padding: 5,
             alignItems: 'center',
             justifyContent: 'center',
+            borderWidth: 1,
+            borderColor: 'black',
+            shadowColor: 'black',
+            shadowOffset: { width: 0, height: 2 },
+            shadowOpacity: 0.25,
+            shadowRadius: 3.84,
+            elevation: 5,
 
 
 
         }}>
-            <Text>Ad: Kaan</Text>
-            <Text>Soyad: KOÇ</Text>
+            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Ad: Kaan</Text>
+            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Soyad: KOÇ</Text>
 
         </View>
     );
