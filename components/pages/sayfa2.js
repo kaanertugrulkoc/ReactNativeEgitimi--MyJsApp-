@@ -1,5 +1,5 @@
 import { View, Text, Image, Linking, TouchableOpacity, TextInput } from 'react-native';
-import { styles } from '../../components/style/style';
+import { stil, styles } from '../../components/style/style';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
@@ -9,14 +9,14 @@ export const Sayfa2 = () => {
     return (
         <View >
             <View style={{ justifyContent: 'center', alignItems: 'center', margin: 10 }}>
-                <Text style={styles.baslik}>KİŞİLER</Text>
+                <Text style={stil.baslik}>KİŞİLER</Text>
             </View>
 
             <View style={{ flexDirection: 'column', height: 20, width: 350, margin: 20, justifyContent: 'center', alignItems: 'center' }}>
 
-                <TextInput placeholder="Ad Soyad" style={styles.yazi} />
-                <TextInput placeholder="Telefon" autoCapitalize="decimals" autoCorrect={false} style={styles.yazi} />
-                <TextInput placeholder="Email" keyboardType="email-address" autoCapitalize="none" autoCorrect={false} style={styles.yazi} />
+                <TextInput placeholder="Ad Soyad" style={stil.yazi} />
+                <TextInput placeholder="Telefon" autoCapitalize="decimals" autoCorrect={false} style={stil.yazi} />
+                <TextInput placeholder="Email" keyboardType="email-address" autoCapitalize="none" autoCorrect={false} style={stil.yazi} />
 
             </View>
 

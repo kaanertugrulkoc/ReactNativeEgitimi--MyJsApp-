@@ -76,7 +76,7 @@ export const stil = StyleSheet.create({
 
     },
     yazi: {
-        width: 250,
+        width: 290,
         height: 50,
         padding: 10,
         margin: 5,
@@ -89,9 +89,25 @@ export const stil = StyleSheet.create({
 
     },
     baslik: {
-        fontSize: 35,
+        fontSize: 19,
         fontWeight: 'bold',
         textAlign: 'center',
+        borderRadius: 20,
+        margin: 5,
+        padding: 5,
+        borderWidth: 1,
+        borderColor: 'black',
+        shadowColor: 'black',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: 'black',
+        backgroundColor: 'gray',
+        width: 290,
+
     },
 
 });
