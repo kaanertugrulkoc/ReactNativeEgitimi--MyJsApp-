@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native';
 
 
-export const Kisi = () => {
+export const Kisi = (props) => {
     return (
         <View style={{
             backgroundColor: 'EAEAEA',
@@ -23,8 +23,8 @@ export const Kisi = () => {
 
 
         }}>
-            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Ad: Kaan Ertugrul</Text>
-            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Soyad: KOÇ</Text>
+            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{props.ad}</Text>
+            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{props.soyad}</Text>
 
         </View>
     );

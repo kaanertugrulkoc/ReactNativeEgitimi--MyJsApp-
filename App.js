@@ -16,7 +16,9 @@ export default function App() {
 
 
 
-      <Kisi />
+
+
+      <Kisi ad="Kaan Ertugrul" soyad="KOÇ" />
       <Sosyal1 />
       <Sosyal />
       <Sayfa2 />
