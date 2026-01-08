@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { styles } from '../style/style';
 
-class sosyal extends React.Component {
+class Sosyal extends React.Component {
     render() {
         return (
             <View>
@@ -15,4 +15,4 @@ class sosyal extends React.Component {
 }
 
 
-export default sosyal;
+export default Sosyal;
