@@ -3,6 +3,8 @@ import { ScrollView } from 'react-native';
 import { styles } from './components/style/style';
 import { Sayfa1 } from './components/pages/sayfa1';
 import { Sayfa2 } from './components/pages/sayfa2';
+import { sosyal } from './components/pages/sosyal';
+
 
 export default function App() {
   return (

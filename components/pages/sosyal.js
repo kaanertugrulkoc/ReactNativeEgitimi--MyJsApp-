@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import { styles } from '../../components/style/style';
+import { styles } from '../style/style';
 
 class sosyal extends React.Component {
     render() {
