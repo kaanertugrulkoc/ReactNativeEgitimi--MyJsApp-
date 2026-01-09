@@ -40,7 +40,7 @@ export const Kisi = (props) => {
                 shadowOpacity: 0.25,
                 shadowRadius: 3.84,
                 elevation: 5,
-            }} title="Bilgi" onPress={() => console.log('Bilgi')} />
+            }} title="Bilgi" onPress={() => console.log('Bilgi verildi')} />
 
         </View>
     );
