@@ -109,5 +109,22 @@ export const stil = StyleSheet.create({
         width: 290,
 
     },
+    sayac_card: {
+        backgroundColor: 'gray',
+        width: 300,
+        height: 100,
+        borderRadius: 20,
+        margin: 5,
+        padding: 5,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        borderColor: 'black',
+        shadowColor: 'black',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
 
+    },
 });

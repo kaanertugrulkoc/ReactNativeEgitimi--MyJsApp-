@@ -5,7 +5,7 @@ import { stil } from '../../components/style/style';
 export const Sayac = () => {
     return (
         <View>
-            <Text style={stil.baslik}>Sayac</Text>
+            <Text style={stil.sayac}>Sayac</Text>
         </View>
     );
 }
