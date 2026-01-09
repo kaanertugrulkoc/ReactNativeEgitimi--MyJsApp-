@@ -5,7 +5,7 @@ import { View, Text } from 'react-native';
 export const Sayac = () => {
     return (
         <View>
-            <Text>Sayac</Text>
+            <Text style={stil.baslik}>Sayac</Text>
         </View>
     );
 }
