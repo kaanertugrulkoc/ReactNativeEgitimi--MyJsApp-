@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 export const Kisi = (props) => {
     return (
         <View style={{
-            backgroundColor: 'EAEAEA',
+            backgroundColor: 'gray',
             width: 300,
             height: 100,
             borderRadius: 20,
