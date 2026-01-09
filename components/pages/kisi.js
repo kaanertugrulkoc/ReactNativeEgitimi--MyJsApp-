@@ -25,7 +25,22 @@ export const Kisi = (props) => {
         }}>
             <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{props.ad}</Text>
             <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{props.soyad}</Text>
-            <Button title="Bilgi" onPress={() => console.log('Bilgi')} />
+            <Button style={{
+                fontSize: 20,
+                fontWeight: 'bold',
+                color: 'black',
+                backgroundColor: 'green',
+                borderRadius: 20,
+                margin: 5,
+                padding: 5,
+                borderWidth: 1,
+                borderColor: 'black',
+                shadowColor: 'black',
+                shadowOffset: { width: 0, height: 2 },
+                shadowOpacity: 0.25,
+                shadowRadius: 3.84,
+                elevation: 5,
+            }} title="Bilgi" onPress={() => console.log('Bilgi')} />
 
         </View>
     );
