@@ -25,6 +25,7 @@ export const Kisi = (props) => {
         }}>
             <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{props.ad}</Text>
             <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{props.soyad}</Text>
+            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{props.telefonno}</Text>
             <Button style={{
                 fontSize: 20,
                 fontWeight: 'bold',
