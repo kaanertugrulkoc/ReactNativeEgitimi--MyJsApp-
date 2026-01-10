@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 class Kalem extends React.Component {
     constructor() {
         this.isim = "Kalem";
-        this.renk = "Kirmizi";
+        this.renk = "Mavi";
         this.boyut = 10;
 
         super();
