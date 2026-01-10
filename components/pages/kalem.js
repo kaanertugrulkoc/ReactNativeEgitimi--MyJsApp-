@@ -37,3 +37,5 @@ class Kalem extends React.Component {
         );
     }
 }
+
+export default Kalem;
