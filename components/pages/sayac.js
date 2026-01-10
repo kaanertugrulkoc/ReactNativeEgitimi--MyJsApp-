@@ -1,8 +1,13 @@
 import { View, Text, Button } from 'react-native';
 import { stil } from '../../components/style/style';
-import React, { useState } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 
 export const Sayac = () => {
+
+    useEffect(() => {
+        console.log("Sayac: " + sayac);
+    }, [sayac]);
+
     const [sayac, setSayac] = useState(0);
     const [yas, setYas] = useState(40);
     const [isim, setIsim] = useState("Kaan Ertugrul");
