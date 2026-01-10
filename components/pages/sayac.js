@@ -5,6 +5,7 @@ import { stil } from '../../components/style/style';
 export const Sayac = () => {
     const [sayac, setSayac] = useState(0);
 
+
     return (
         <View style={{
             alignItems: 'center',
@@ -24,8 +25,10 @@ export const Sayac = () => {
             elevation: 5,
         }}>
 
-            <Text style={stil.sayac_card}>Sayac</Text>
+            <Text style={stil.sayac_card}>{sayac}</Text>
 
+            <Button title="Artır" onPress={() => setSayac(sayac + 1)} />
+            <Button title="Azalt" onPress={() => setSayac(sayac - 1)} />
 
         </View>
     );
