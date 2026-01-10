@@ -4,7 +4,7 @@ import { stil } from '../../components/style/style';
 
 export const Sayac = () => {
     return (
-        <View style={{ alignItems: 'center', justifyContent: 'center', flexDirection: 'row' }}>
+        <View style={{ alignItems: 'center', justifyContent: 'center' }}>
 
             <Text style={stil.sayac_card}>Sayac</Text>
         </View>
