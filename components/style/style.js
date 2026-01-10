@@ -83,9 +83,8 @@ export const stil = StyleSheet.create({
         borderWidth: 1,
         borderColor: 'black',
         borderRadius: 10,
-
-
-
+        fontWeight: 'bold',
+        fontSize: 20,
 
     },
     baslik: {
@@ -112,13 +111,13 @@ export const stil = StyleSheet.create({
     sayac_card: {
         backgroundColor: 'gray',
         width: 300,
-        height: 75,
+        height: 150,
         borderRadius: 20,
-        margin: 10,
+        margin: 5,
         padding: 5,
         alignItems: 'center',
         justifyContent: 'center',
-        flexDirection: 'row',
+
         borderWidth: 1,
         borderColor: 'black',
         shadowColor: 'black',
@@ -126,7 +125,6 @@ export const stil = StyleSheet.create({
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
         elevation: 5,
-
 
 
     },

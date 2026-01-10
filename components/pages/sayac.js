@@ -7,28 +7,12 @@ export const Sayac = () => {
 
 
     return (
-        <View style={{
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: 300,
-            height: 75,
-            backgroundColor: 'gray',
-            borderRadius: 20,
-            margin: 5,
-            padding: 5,
-            borderWidth: 1,
-            borderColor: 'black',
-            shadowColor: 'black',
-            shadowOffset: { width: 0, height: 2 },
-            shadowOpacity: 0.25,
-            shadowRadius: 3.84,
-            elevation: 5,
-        }}>
+        <View style={stil.sayac_card}>
 
-            <Text style={stil.sayac_card}>{sayac}</Text>
+            <Text stil={stil.yazi} >{sayac}</Text>
 
-            <Button style={{ margin: 5 }} title="Artır" onPress={() => setSayac(sayac + 1)} />
-            <Button style={{ margin: 5 }} title="Azalt" onPress={() => setSayac(sayac - 1)} />
+            <Button stil={stil.yazi} title="Artır" onPress={() => setSayac(sayac + 1)} />
+            <Button stil={stil.yazi} title="Azalt" onPress={() => setSayac(sayac - 1)} />
 
         </View>
     );
