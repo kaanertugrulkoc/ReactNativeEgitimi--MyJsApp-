@@ -31,7 +31,7 @@ export default function App() {
       </modal>
 
 
-      {/*
+
       <Sayac />
       <Kisi ad="Kaan Ertugrul " soyad="KOÇ " />
       <Kisi ad="Selahattin " soyad="KOÇ " />
@@ -40,7 +40,7 @@ export default function App() {
       <Sosyal />
       <Sayfa2 />
       <Sayfa1 />
-      */}
+
 
 
 
