@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native';
+import { View, Text, Button, useState } from 'react-native';
 import { stil } from '../../components/style/style';
 
 
