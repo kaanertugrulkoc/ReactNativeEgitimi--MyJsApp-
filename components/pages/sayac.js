@@ -3,6 +3,8 @@ import { stil } from '../../components/style/style';
 
 
 export const Sayac = () => {
+    const [sayac, setSayac] = useState(0);
+
     return (
         <View style={{
             alignItems: 'center',
@@ -23,6 +25,8 @@ export const Sayac = () => {
         }}>
 
             <Text style={stil.sayac_card}>Sayac</Text>
+
+
         </View>
     );
 }
