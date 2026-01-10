@@ -17,9 +17,7 @@ export default function App() {
 
 
       <Sayac />
-      <Sayac />
       <Kisi ad="Kaan Ertugrul " soyad="KOÇ " />
-      <Kisi ad="Oguzkaan " soyad="KOÇ " />
       <Kisi ad="Selahattin " soyad="KOÇ " />
       <Kisi ad="Kaan Ertugrul " soyad="KOÇ " telefonno="0531 60* ** **" />
       <Sosyal1 />
