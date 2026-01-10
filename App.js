@@ -9,16 +9,26 @@ import Sosyal1 from './components/pages/sosyal1';
 import { Kisi } from './components/pages/kisi';
 import { Sayac } from './components/pages/sayac';
 
+import { useState } from 'react';
+
 
 export default function App() {
-  let [modalVisible, setModalVisible] = useState(false);
+  let [visible, setVisible] = useState(false);
 
   return (
 
     <ScrollView contentContainerStyle={[styles.container, { flex: 1 }]}>
       <StatusBar style="auto" />
 
-      <button title="Modal" onPress={() => setModalVisible((prev) => !prev)} />
+      <button title="Modal" onPress={() => setVisible((prev) => !prev)} />
+      <modal visible={visible}>
+
+        <view>
+          <text>Modal</text>
+          <button title="Close" onPress={() => setVisible(false)} />
+        </view>
+
+      </modal>
 
 
       {/*
