@@ -16,7 +16,7 @@ export default function App() {
     <ScrollView contentContainerStyle={[styles.container, { flex: 1 }]}>
       <StatusBar style="auto" />
 
-      <Kalem />
+
       <Sayac />
       <Kisi ad="Kaan Ertugrul " soyad="KOÇ " />
       <Kisi ad="Selahattin " soyad="KOÇ " />
