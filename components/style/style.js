@@ -130,6 +130,9 @@ export const stil = StyleSheet.create({
         borderRadius: 10,
         fontWeight: 'bold',
         fontSize: 50,
+        color: 'black',
+
+
 
     },
 });
