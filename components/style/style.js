@@ -75,18 +75,7 @@ export const stil = StyleSheet.create({
     kutu: {
 
     },
-    yazi: {
-        width: 290,
-        height: 50,
-        padding: 10,
-        margin: 5,
-        borderWidth: 1,
-        borderColor: 'black',
-        borderRadius: 10,
-        fontWeight: 'bold',
-        fontSize: 20,
 
-    },
     baslik: {
         fontSize: 19,
         fontWeight: 'bold',
@@ -127,6 +116,20 @@ export const stil = StyleSheet.create({
         shadowRadius: 3.84,
         elevation: 5,
 
+        fontSize: 20,
+        fontWeight: 'bold',
+
+    },
+    yazi: {
+        width: 290,
+        height: 50,
+        padding: 10,
+        margin: 5,
+        borderWidth: 1,
+        borderColor: 'black',
+        borderRadius: 10,
+        fontWeight: 'bold',
+        fontSize: 50,
 
     },
 });
