@@ -1,6 +1,6 @@
-import { View, Text, Button, useState } from 'react-native';
+import { View, Text, Button } from 'react-native';
 import { stil } from '../../components/style/style';
-
+import React, { useState } from 'react';
 
 export const Sayac = () => {
     const [sayac, setSayac] = useState(0);
@@ -27,8 +27,8 @@ export const Sayac = () => {
 
             <Text style={stil.sayac_card}>{sayac}</Text>
 
-            <Button title="Artır" onPress={() => setSayac(sayac + 1)} />
-            <Button title="Azalt" onPress={() => setSayac(sayac - 1)} />
+            <Button style={{ margin: 5 }} title="Artır" onPress={() => setSayac(sayac + 1)} />
+            <Button style={{ margin: 5 }} title="Azalt" onPress={() => setSayac(sayac - 1)} />
 
         </View>
     );
