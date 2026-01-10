@@ -110,11 +110,12 @@ export const stil = StyleSheet.create({
     },
     sayac_card: {
         backgroundColor: 'gray',
-        width: 300,
-        height: 150,
+        width: 200,
+        height: 100,
         borderRadius: 20,
-        margin: 5,
-        padding: 5,
+        margin: 3,
+        padding: 3,
+
         alignItems: 'center',
         justifyContent: 'center',
 
