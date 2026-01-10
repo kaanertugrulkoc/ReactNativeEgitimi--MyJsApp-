@@ -8,7 +8,7 @@ import Sosyal from './components/pages/sosyal';
 import Sosyal1 from './components/pages/sosyal1';
 import { Kisi } from './components/pages/kisi';
 import { Sayac } from './components/pages/sayac';
-import { Kalem } from './components/pages/kalem';
+
 
 export default function App() {
   return (
@@ -17,6 +17,7 @@ export default function App() {
       <StatusBar style="auto" />
 
 
+      {/*
       <Sayac />
       <Kisi ad="Kaan Ertugrul " soyad="KOÇ " />
       <Kisi ad="Selahattin " soyad="KOÇ " />
@@ -25,6 +26,7 @@ export default function App() {
       <Sosyal />
       <Sayfa2 />
       <Sayfa1 />
+      */}
 
 
 
