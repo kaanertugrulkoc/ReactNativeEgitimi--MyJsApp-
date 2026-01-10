@@ -13,22 +13,13 @@ import { useState } from 'react';
 
 
 export default function App() {
-  let [visible, setVisible] = useState(false);
+
 
   return (
 
     <ScrollView contentContainerStyle={[styles.container, { flex: 1 }]}>
       <StatusBar style="auto" />
 
-      <button title="Modal" onPress={() => setVisible((prev) => !prev)} />
-      <modal visible={visible}>
-
-        <view>
-          <text>Modal</text>
-          <button title="Close" onPress={() => setVisible(false)} />
-        </view>
-
-      </modal>
 
 
 
