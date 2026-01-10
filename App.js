@@ -11,10 +11,14 @@ import { Sayac } from './components/pages/sayac';
 
 
 export default function App() {
+  let [modalVisible, setModalVisible] = useState(false);
+
   return (
 
     <ScrollView contentContainerStyle={[styles.container, { flex: 1 }]}>
       <StatusBar style="auto" />
+
+      <button title="Modal" onPress={() => setModalVisible((prev) => !prev)} />
 
 
       {/*
