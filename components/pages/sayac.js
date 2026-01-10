@@ -10,7 +10,6 @@ export const Sayac = () => {
         <View style={stil.sayac_card}>
 
             <Text stil={stil.yazi} >{sayac}</Text>
-
             <Button stil={stil.yazi} title="Artır" onPress={() => setSayac(sayac + 1)} />
             <Button stil={stil.yazi} title="Azalt" onPress={() => setSayac(sayac - 1)} />
 
