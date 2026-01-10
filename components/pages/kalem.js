@@ -31,7 +31,7 @@ class Kalem extends React.Component {
                 <Text>{this.state.renk}</Text>
                 <Text>{this.state.boyut}</Text>
                 <Text>{this.state.sayac}</Text>
-                <Button title="Artir" onPress={() => this.artir()} />
+                <Button title="Arttır" onPress={() => this.artir()} />
                 <Button title="Azalt" onPress={() => this.azalt()} />
             </View>
         );
